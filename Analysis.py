@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-file_path = 'salesdaily.csv'
 
 if not os.path.exists(file_path):
     print(f"Error: '{file_path}' not found. Please ensure the CSV is in the 'data' folder.")
